@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2dc755ba6a.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2dc755ba6a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- -------------navbar------------------ -->
+    <nav>
+        <div class="navbar">
+            <div class="nav-container">
+                <div class="logo">Portfolio</div>
+                <ul class="nav-item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Skill</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="manu-icon">
+                    <i id="btn" class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="header-container">
+            <div class="header-info">
+                <p class="text-1">Hello, my name is</p>
+                <p class="text-2">Ripas Sorker Rifat</p>
+                <p class="text-3">And I am a web <span>devloper</span></p>
+                <a class="btn" href="#">Hire me</a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- --------------------About me-------------------- -->
+    <section class="about-section">
+        <div>
+            <h1>About <span>Me</span></h1>
+        </div>
+        <div class="About-container">
+            <div class="image">
+                <img src="images/profile-1.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                <h3><span> I am</span> Ripas Sorker Rifat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid hic, repellendus quia explicabo, ab
+                    maiores, nesciunt aspernatur excepturi impedit nostrum quam. Facere dolores porro ipsum, adipisci
+                    rerum voluptatum illo, iure iusto placeat ducimus architecto ea dicta
+                    labore, numquam corporis voluptatibus nam ratione veritatis? .</p>
+                <a class="btn" href="">Download CV</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- --------------------my service------------------------- -->
+    <section class="service-section">
+        <div>
+            <h1>My <span>Service</span></h1>
+        </div>
+        <div class="service-container">
+            <div class="service-info">
+                <i class="fa-brands fa-dribbble icon"></i>
+                <h6>Web Design</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam dolorem distinctio
+                    aperiam eligendi
+                    cumque?</p>
+            </div>
+            <div class="service-info">
+                <i class="fa-brands fa-codepen icon"></i>
+                <h6>Graffix Design</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam dolorem distinctio aperiam eligendi
+                    cumque?</p>
+            </div>
+            <div class="service-info">
+                <i class="fa-solid fa-dumpster-fire icon"></i>
+                <h6>App devlopment</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam dolorem distinctio aperiam eligendi
+                    cumque?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------contact section------------------------ -->
+    <section>
+
+        <div>
+            <p class="about-me">Contact <span>me</span></p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h6>Get in <span> touch</span></h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga
+                        corrupti.
+                        Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <div class="user-info">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="user-details">
+                            <p>Name</p>
+                            <small>Ripas Sorker Rifat</small>
+                        </div>
+                    </div>
+
+                    <div class="user-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="user-details">
+                            <p>Address</p>
+                            <small>Dhaka, Bangladesh</small>
+                        </div>
+                    </div>
+                    <div class="user-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="user-details">
+                            <p>Email</p>
+                            <small>ripassorker2@gmail.com</small>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- ------------contact input feild---------------------- -->
+                <div class="contact-feild">
+                    <h6>Fill up the <span>form</span> !!</h6>
+                    <div>
+                        <input class="input-1" type="text" placeholder="Name">
+                        <input class="input-1" type="email" placeholder="Email">
+                        <textarea name="" id="" cols="" rows="" placeholder="Discription"></textarea>
+                    </div>
+                    <a href="" class="btn">Send meassage</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------------------footer secton-------------- -->
+
+    <footer>
+        <div class="footer-container">
+            <p>Created By <span>Riaps Sorker Rifat</span> !!</p>
+            <p>@Copyright 2020 All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btn').click(function () {
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
+</body>
+
+</html>
